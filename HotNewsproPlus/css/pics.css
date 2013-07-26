@@ -1,0 +1,84 @@
+.picGrid{
+    width: 236px;
+    border: 1px solid #dbdbdb;
+    color: #000;
+    background-color: #FFF;
+    margin: 0px 3px 5px 1px;
+}
+
+.picLinkBox{
+    width: 236px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f0f0f0;
+    color: #09F;
+    float: left;
+    text-align: right;
+    margin-top: 8px;
+    display:inline;
+}
+
+.picLinkBox .estorm_comm {background:url(../images/icon.png) no-repeat -198px -223px; padding:0 7px 0 26px;}
+.picLinkBox .estorm_date, .picLinkBox .estorm_views { float: left; color: black; margin: 0 1px 0 3px;}
+
+.picBox{
+    width: 224px; 
+    display: block;
+    margin: 6px 6px 5px 6px;
+}
+
+.picBox img{
+    width: 224px;
+}
+
+.picBox dl{
+    width:224px;
+    float:left;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.picBox dt{
+    width: 224px; 
+    line-height: 20px; 
+    color: #000; 
+}
+
+.picTags {
+    width: 236px;
+    float: left;
+    text-align: left;
+    margin-top: 3px;
+    padding-left: 5px;
+    overflow: visible;
+}
+
+.picTags a {
+    display: inline-block;
+    width: auto;
+    padding: 3px 5px;
+    background-color: #D2E1F0;
+    color: black;
+    margin: 5px 5px 0 0;
+}
+
+.picTags a:hover {
+    background-color: #F70909;
+}
+
+.picBox dd{
+    text-indent: 2em;
+    width: 224px; 
+    line-height: 20px; 
+    color:#000; 
+    -webkit-margin-start: 0;
+}
+
+.picBox dd a{
+    color:#6A9BCC;
+}
+
+.picBox dd a:hover{
+    color:red;
+}
+
